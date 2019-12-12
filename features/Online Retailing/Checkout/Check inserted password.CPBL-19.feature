@@ -17,7 +17,7 @@ Feature: Reject new version of T&C (per account)
     When I click on the CTA to reject the new version of T&C
     Then I should see a message
       """
-      to reject the T&C ? All car services (and any prepaid data bundles) will stop working, however all device information will still be stored for insurance purposes. This will impact all your connected cars.
+      ? All car services (and any prepaid data bundles) will stop working, however all device information will still be stored for insurance purposes. This will impact all your connected cars.
       """
     And a ConfirmCTA
     And a CancelCTA
